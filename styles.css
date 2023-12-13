@@ -7,10 +7,10 @@
     font-size:  20px;
 }
 .body{
-    background-color: dimgrey;
+    background-color: #ff6e7f;
 }
 .header{
-    background-color: darksalmon;
+    background-color:#eaafc8 ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,3 +46,108 @@
 .header .nav-links li a:hover{
     color: aqua;
 }
+main{
+    background-color:darksalmon
+    height:1000px;
+    padding: 100px;
+    display:flex;
+
+
+}
+h1{
+    color: black;
+    font-size: 200%;
+    font-weight: 300px;
+    margin-bottom: 3%;
+}
+p{
+    color:black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: fit-content;
+
+    
+}
+.buttons{
+    font-size: 1.1rem;
+    padding: 1% 2px;
+    font-weight: 600;
+    border-radius: 8px;
+
+}
+.button-primary{
+    color: black;
+    background-color:#ff6e7f;
+    text-decoration: none;
+}
+.button-primary:hover{
+    background-color:aqua;
+    transition: background-color 0.3s;
+}
+.button-secundary{
+    color:black;
+    background-color: #ff6e7f;
+    text-decoration: none;
+
+}
+.button-secundary:hover{
+    background-color:chartreuse;
+    transition:background-color 0.3s;
+}
+.section_card-buttons a{
+    margin-right:2rem;
+
+}
+.image{
+    width: 400px;
+    display: flex;
+    justify-content: right;
+    
+}
+
+
+.pie-pagina{
+   width: 100%;
+   background-color:white;
+ 
+
+    
+}
+.pie-pagina .box{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    padding: 45px 0px;
+    flex-direction:center;
+    
+
+.pie-pagina .box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+       
+       
+    }
+
+.pie-pagina .box{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color:#7a7a7a;
+    font-size: 10px;
+   
+    
+        
+}
+
+main{
+    display: flex;
+    align-items: center;
+ }
+
+
